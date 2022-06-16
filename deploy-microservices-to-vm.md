@@ -19,6 +19,8 @@ Install mysql
 sudo apt update
 sudo apt install mysql-server
 sudo systemctl start mysql.service
+```
+```bash
 # login to mysql
 sudo mysql -u root -p
 [sets password, make a note!!]
@@ -43,6 +45,8 @@ Configure environment – python
 sudo apt install python3-pip
 python3 -m pip install flask
 python3 -m pip install flask-mysql
+```
+```bash
 # from azure-voting-app/azure-vote/azure-vote
 # edit main.py
 # change the port to 8080
